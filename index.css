@@ -1,0 +1,145 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+body{
+	padding: 20px;
+}
+
+.banner{
+	width: 100%;
+	height: 100px;
+	background-color: aliceblue;
+}
+
+.banner > img{
+	object-fit: contain;
+	width: 100%;
+	height: 100px;
+	border-radius: 4px;
+	background-color: aliceblue;
+	padding:20px 20px
+}
+
+.sidebar{
+	height:fit-content;
+	width:fit-content;
+	background-color: aliceblue;
+	border:1px solid deepskyblue;
+	border-radius: 4px;
+	padding:10px 10px;
+	margin-top: 20px;
+}
+.nav{
+	height: 100%;
+}
+ul{
+	
+	width:1fr;
+	display: flex;
+	list-style-type:none;
+	flex-direction: column;
+	row-gap: 20px;
+	
+}
+
+svg{
+	height: 20px !important;
+	color:deepskyblue;
+}
+
+.list-item{
+	display: flex;
+	align-items: center;
+	column-gap: 10px;
+}
+
+.container{
+	display: flex;
+
+}
+.home{
+	padding: 20px 20px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+}
+.home > h2{
+	padding: 20px 20px;
+}
+
+.upload-options > svg > i{
+	height: 10px !important;
+}
+
+img{
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	border:1px solid deepskyblue;
+	box-shadow:box-shadow:-2px -4px 8px rgba(103, 198, 224, 0.2), 2px 4px 8px rgba(0,0, 0, 0.2);
+
+}
+
+#thoughts{
+	border: none;
+	padding: 10px 20px 10px 20px;
+	text-align: center;
+	outline: none;
+}
+#thoughts:hover{
+	outline: none;
+	border-bottom: 1px solid deepskyblue;
+}
+.reply-options{
+	display: flex;
+	align-items: center;
+	column-gap: 10px;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.options{
+	display: flex;
+}
+
+.upload-options {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.tweet-btn > button{
+	width: 100px;
+	height: 30px;
+	border-radius: 4px;
+	background-color: white;
+	border:1px solid deepskyblue;
+	font-weight: bold;
+	font-size: 18px;
+	background-color: aliceblue;
+
+}
+
+.tweet-btn > button:active{
+
+	background-color: deepskyblue;
+	transition: 0.5s;
+	box-shadow: -2px -4px 8px inset rgba(0,0,0,0,0.5);
+	/* transition: 0.1s;
+	background-color: white; */
+	
+}
+main{
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+	
+}
+
+.tweets{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}

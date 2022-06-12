@@ -1,0 +1,62 @@
+.tweet{
+	height:auto;
+	width: 100%;
+	background-color: aliceblue;
+	padding: 20px 20px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+	border-radius: 4px;
+	border:1px solid deepskyblue;
+	position: relative;
+}
+
+.story{
+	object-fit:fill;
+	height:200px;
+	width:200px;
+	border-radius: 4px;
+}
+
+/* .story:hover{
+	position:absolute;
+	z-index: 10;
+	height: 100%;
+	width: auto;
+} */
+
+.react{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.react > i > svg{
+	height: 20px !important;
+	font-size:
+}
+
+/* i::before{
+	content: '';
+	height:20px;
+	width: 20px;
+	border-radius: 100%;
+	background-color: red;
+} */
+
+i{
+	height: 40px;
+	width: 40px;
+	background-color: white;
+	border-radius: 100%;
+	display:grid;
+	place-items: center;
+	box-shadow:-2px -4px 8px rgba(103, 198, 224, 0.2), 2px 4px 8px rgba(0,0, 0, 0.2);
+	
+}
+
+i:active{
+	box-shadow:-2px -4px 8px rgba(44, 188, 214, 0.2), 2px 4px 8px rgba(0,0, 0, 0.2);
+	transform: rotate(360deg);
+	transition: 1s;
+}
