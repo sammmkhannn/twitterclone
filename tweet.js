@@ -1,10 +1,10 @@
 import "./tweet.css";
 
-const tweet = (user, thoughts, src) => {
+const tweet = (pic, user, thoughts, src) => {
   return `
            <div class="tweet">
                 <div class="tweet-header">
-                <img src="./sam.jpeg" alt="user image"/>
+                <img src="${pic}" alt="user image"/>
                 <h3>${user}</h3>
 				<p>${thoughts}</p>
                 </div>

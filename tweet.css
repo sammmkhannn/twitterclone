@@ -60,3 +60,8 @@ i:active{
 	transform: rotate(360deg);
 	transition: 1s;
 }
+
+
+img{
+	object-fit: cover;
+}
